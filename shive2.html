@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Railway Ticket</title>
+</head>
+
+<script type="text/javascript" src="message.js">
+    
+</script>
+
+<style>
+.navbar{
+    height: 50px;
+    background-color: rgb(206, 94, 94);
+    position: fixed;
+    width: 100%;
+    margin-top: 2px;
+}
+.navbar li{
+ list-style:none ;
+  float: left; 
+padding-left: 150px;
+ padding-right: 150px;
+
+}
+.navbar li a{
+    text-decoration: none;
+    color: whitesmoke;
+   
+   align-items: center;
+    
+}
+
+.navbar li a:hover{
+    color: blue;
+    background-color: peru;
+}
+.division{
+    height: 800px;
+   
+    
+}
+.team{
+    color: white;
+    margin-top: 150px;
+    position: fixed;
+    height: 300px;
+    border-color: white;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWfYSPzAyaYBWVFGMbi2DYNOZLilffBiFWjw&usqp=CAU');
+    margin-left: 200px;
+    width: 250px;
+    padding-top: 100px;
+    padding-left: 50px;
+    font-size: 20px;
+    
+}
+
+</style>
+<body style="background-image: url('https://wallpaperaccess.com/full/1339875.jpg')";>
+    <nav class="navbar">
+<ul><li class="list1"><a href="https://hbtu.ac.in/"> Home</a></li>
+<li class="list2"><a href="https://hbtu.ac.in/">About</a></li>
+<li class="list3"><a href="https://hbtu.ac.in/">Contact Us</a></li>
+</ul>
+    </nav>
+    
+   
+   <div class="division">
+    
+       <form action="" >
+        <div class="team">
+        <div><input type="text" placeholder="Name"><label for="Name"></label></div><br>
+       <div> <input type="text" placeholder="Destination"><label for="Destination"></label></div><br>
+        <div><input type="text" placeholder="from"><label for="From"></label></div><br>
+        <div><input type="date" placeholder="Date"><label for="Date"></label></div><br>
+        <div style="padding-left: 40px;" ; style="padding-top: 10px;"> <input type="button" value="Submit" onclick="msg()"/>
+       
+    </div>
+</form>
+
+   </div> 
+</body>
+</html>
